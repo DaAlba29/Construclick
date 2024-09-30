@@ -1,0 +1,36 @@
+@import url(guiaDediseño.css); /* Importo la guia de diseño */
+main{ /* Diseñp de la imagen y los textos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Pagina_Principal/FondoWebPaginaPrincipal.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    text-decoration: none;
+    color: white;
+}
+section{ /* Color y posicion de los textos */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+section a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+section h1{
+    font-weight: 700;
+}
+
+.buttonBrownWhite--container{
+   background-color: #735F46;
+   border-radius: 10px;
+   width: 130px;
+   height: 50px;
+   border-color:none;
+}
